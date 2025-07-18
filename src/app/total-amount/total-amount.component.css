@@ -1,0 +1,6 @@
+.input-group{
+    max-width: 250px;
+}
+.form-control{
+    pointer-events: none;
+}

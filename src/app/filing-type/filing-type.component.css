@@ -1,0 +1,17 @@
+.radio{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.dropbox{
+    padding-top: 10px;
+    gap: 15px;
+}
+.required{
+    color: red;
+}
+.form-select{
+    border: #000000 1px solid;
+    margin-bottom: 40px;
+}
+
+

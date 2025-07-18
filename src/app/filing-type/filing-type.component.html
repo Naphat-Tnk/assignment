@@ -1,0 +1,7 @@
+<div class="radio">
+    <input [(ngModel)]="filingType" id="ordinary" name="filingType" type="radio" value="0" (ngModelChange)="onChangeType($event)">
+    <label for="ordinary">Ordinary Filing</label>
+    <input [(ngModel)]="filingType" id="additional" name="filingType" type="radio" value="1" (ngModelChange)="onChangeType($event)">
+    <label for="additional">Additional Filing</label>
+</div>
+

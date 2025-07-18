@@ -1,0 +1,6 @@
+<div class="dropbox">
+    <select class="form-select" name="type" [(ngModel)]="Typebase" (ngModelChange)="onChangeType($event)" >
+        <option  type="dropdown" value="" disabled selected>Type</option>
+        <option *ngFor="let type of TypeList" [value]="type.value">{{ type.viewValue }}</option>
+    </select>
+</div>

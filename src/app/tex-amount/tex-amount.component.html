@@ -1,0 +1,18 @@
+<div class="d-flex align-items-center justify-content-between gap-3">
+    <span class="mb-0">
+      2. Total VAT to be remitted (7% of 1.)
+    </span>
+  
+    <div class="input-group input-group-sm">
+      <input
+        type="text"
+        class="form-control text-end"
+        [(ngModel)]="taxValue"
+        placeholder="THB"
+        (blur)="onBlur($event)"
+        (focus)="onFocus($event)"
+        (input)="onInput($event)"
+      />
+    </div>
+</div>
+  

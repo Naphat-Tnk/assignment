@@ -1,0 +1,10 @@
+.dropbox{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.form-select{
+    min-width: 50px;
+    max-width: 120px;
+    border: #000000 1px solid;
+}

@@ -1,0 +1,18 @@
+<div class="d-flex align-items-center justify-content-between gap-3">
+    <span class="mb-0">
+      1. Total value of taxable electronic service exclusive of VAT
+    </span>
+  
+    <div class="input-group input-group-sm">
+      <input
+        type="text"
+        class="form-control text-end"
+        placeholder="THB"
+        [(ngModel)]="SaleAmount"
+        (blur)="onBlur($event)"
+        (focus)="onFocus($event)"
+        (input)="onInput($event)"
+      />
+    </div>
+</div>
+  

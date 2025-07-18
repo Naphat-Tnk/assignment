@@ -1,0 +1,6 @@
+<div class="dropbox">
+    <select class="form-select" name="Month" [(ngModel)]="Month" (ngModelChange)="onChangeMonth($event)" >
+        <option  type="dropdown" value="" disabled selected>Month</option>
+        <option *ngFor="let month of MonthList" [value]="month.value">{{ month.viewValue }}</option>
+    </select>
+</div>
